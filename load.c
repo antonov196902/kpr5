@@ -1,9 +1,7 @@
 
 #include <stdio.h>
 
-#ifndef WIN32
-    #include <dlfcn.h>
-#else
+
     #include <windows.h>
 #endif
 
